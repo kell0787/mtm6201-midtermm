@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Olonje</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- skip links  -->
+    <div class="container" id="Top">
+        <ul class="skip-links">
+            <li><a href="#main-nav" class="skip-link">Skip to navigation</a></li>
+            <li><a href="#main" class="skip-link">Skip to content</a></li>
+        </ul>
+
+        <!-- header section -->
+        <header role="banner">
+            <!-- navigation -->
+            <nav role="navigation" class="desktop-nav">
+                <div>
+                 <img src="/images/food_app_logo.png" alt="Bella Olonje food app logo">
+                </div>
+                <!-- nav links -->
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+
+            <!-- mobile nav -->
+            <header>
+                <nav class="mobile-nav">
+                    <div>
+                        <img src="/images/food_app_logo.png" alt="Bella Olonje food app logo">
+                    </div>
+                    <ul class='nav-bar'>
+                        <input type='checkbox' id='check' />
+                        <span class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                        </span>
+                        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                    </ul>
+                </nav>
+            </header>
+            
+
+
+        <main id="maincontent" role="main">
+
+            <!-- banner section -->
+            <section class="banner">
+                <!-- Phones image -->
+                <div class="phones-overlay">
+                    <img src="images/food_app_phones.png" alt="2 phones">
+                </div>
+
+               
+                <!-- Banner content -->
+                <h4><b>Food app</b></h4>
+                <h1>Why stay hungry when you can order from Bella Olonje</h1>
+                <p>Download the Bella Olonje's food app now on</p>
+                <!-- buttons for app store -->
+                <div class="app-links">
+                    <a href="https://www.apple.com/ca/app-store/">
+                        <button class="playstore">Playstore</button>
+                    </a>
+                    <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1">
+                        <button class="appstore">Appstore</button>
+                    </a>
+
+                </div>
+            </section>
+
+            <hr>
+            <!-- how the app works section -->
+            <h3 class="centered-heading">How the app works</h3>
+            <section class="steps-section">
+                <!-- step one -->
+                <div class="step">
+                    <div class="content">
+                        <h4>Create an account</h4>
+                        <h3>Create/login to an existing account to get started.</h3>
+                        <p>An account is created with your email and a desired password</p>
+                    </div>
+                    <img src="images/food_app_phone_3.png" alt="Create account">
+                </div>
+
+                <!-- step two -->
+                <div class="step">
+                    <div class="content">
+                        <h4>Explore varieties</h4>
+                        <h3>Shop for your favorite meal as e dey hot.</h3>
+                        <p>Shop for your favorite meals or drinks and enjoy while doing it.</p>
+                    </div>
+                    <img src="images/food_app_phone_4.png" alt="Shop for meal">
+                </div>
+
+                <!-- step three -->
+                <div class="step">
+                    <div class="content">
+                        <h4>Checkout</h4>
+                        <h3>When you done check out and get it delivered.</h3>
+                        <p>When you done check out and get it delivered with ease.</p>
+                    </div>
+                    <img src="images/food_app_phone_5.png" alt="Checkout">
+                </div>
+            </section>
+
+
+            <!-- download the app section -->
+            <section class="download-app">
+                <h2>Download the app now.</h2>
+                <p id="desktop-p">Available on your favorite store. Start your premium experience now</p>
+
+                <p class="mobile-p"> Most calendars are designed for teams. </p>
+                <div class="button-container">
+                    <button class="playstore desktop">Playstore</button>
+                    <button class="appstore desktop">App store</button>
+
+                    <!-- This HTML will only show in the media query -->
+                    <div class="mobile-buttons">
+                        <button class="buy-now mobile">Buy now</button>
+                        <button class="try-for-free mobile">Try for free</button>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer role="contentinfo">
+            <div class="container footer-container">
+                <a href="index.html" class="footer-logo">
+                    <img src="images/food_app_logo.png" alt="Bella Olonje Food App Logo">
+                </a>
+                <div class="footer-social-media-icon">
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <img src="images/twitter.svg" alt="Twitter icon">
+                    </a>
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <img src="images/facebook.svg" alt="Facebook icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <img src="images/instagram.svg" alt="Instagram icon">
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Bellaolonje.com</p>
+                </div>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>

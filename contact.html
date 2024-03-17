@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Olonje contact</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- skip links  -->
+    <div class="container" id="Top">
+        <ul class="skip-links">
+            <li><a href="#main-nav" class="skip-link">Skip to navigation</a></li>
+            <li><a href="#main" class="skip-link">Skip to content</a></li>
+        </ul>
+
+        <!-- header section -->
+        <header role="banner">
+            <!-- navigation -->
+            <nav role="navigation" class="desktop-nav">
+
+                <!-- nav links -->
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- mobile nav -->
+            <nav class="mobile-nav">
+                <ul class='nav-bar'>
+
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main id="maincontent">
+
+            <!-- table -->
+            <section id="contact" class="contact-us" role="region" aria-labelledby="contact-heading">
+                <div class="container">
+                    <h2 id="contact-heading" class="contact-heading">Contact us</h2>
+
+                    <div class="contact-form">
+                        <h3 class="form-heading">Send us a message</h3>
+                        <div class="feedback-form">
+
+                            <label class="feedback-label" for="fullname">Full name</label> <br>
+                            <input class="input-box" type="text" id="fullname" name="fullname"> <br>
+
+                            <label class="feedback-label" for="email">Email</label> <br>
+                            <input class="input-box" type="text" id="email" name="email"> <br>
+
+                            <label class="feedback-label" for="your-message">Message</label> <br>
+                            <textarea name="your-message" class="message-textbox" id="your-message" cols="84"
+                                rows="8"></textarea>
+
+                            <button class="btn-send">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- hours of operation -->
+
+            <div class="container">
+                <div class="hours-wrapper" role="region" aria-labelledby="hours-heading">
+                    <div class="hours">
+                        <h3 id="hours-heading" class="hours-heading">Hours of operation</h3>
+                        <table class="hours-table">
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9 AM - 6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="map-wrapper" role="region" aria-labelledby="map-heading">
+                    <!-- Map embedded here -->
+                    <div class="map-container">
+                        <!-- Insert your map embed code here -->
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1w1APSxLXk8v1nRQdFGRQPmnZl4Y&hl=en&ehbc=2E312F"
+                            width="640" height="480"></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- FOOTER SECTION -->
+            <footer role="contentinfo">
+                <div class="container footer-container">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/food_app_logo.png" alt="Bella Olonje Food App Logo">
+                    </a>
+                    <div class="footer-social-media-icon">
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <img src="images/twitter.svg" alt="Twitter icon">
+                        </a>
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <img src="images/facebook.svg" alt="Facebook icon">
+                        </a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                            <img src="images/instagram.svg" alt="Instagram icon">
+                        </a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 Bellaolonje.com</p>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+
+</body>
+
+</html>
